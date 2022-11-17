@@ -1,0 +1,12 @@
+
+.bar { @apply w-full h-50 fixed z-10 flex justify-between items-center backdrop-blur-sm;
+	background: hsla(0, 0%, 70%, 0.6)
+}
+
+.link { @apply m-1 rounded-md px-4 py-2 font-20;  transition: background 0.3s ease-in-out }
+.link:hover { @apply bg-over text-white }
+
+.now { @apply bg-light text-black }
+
+.sun  { @apply hidden dark:block w-7 h-7 fill-none stroke-2 stroke-light cursor-pointer }
+.moon { @apply block dark:hidden w-6 h-6 fill-none stroke-2 stroke-dark cursor-pointer }

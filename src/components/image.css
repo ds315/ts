@@ -1,0 +1,6 @@
+
+.view { @apply fixed left-0 w-full h-full bg-black z-20 }
+
+.show { @apply visible;  opacity: 1;  transition: opacity 0.5s linear }
+
+.hide { @apply invisible;  opacity: 0;  transition: opacity 0.5s linear, visibility 0s linear 0.5s }

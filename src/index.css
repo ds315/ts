@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { @apply m-0 dark:text-light }
+::-webkit-scrollbar { width: 0 }
+
+body { @apply text-center bg-fixed bg-[url('http://asuprog.ru/img/bg.jpg')] }
+
+.main { @apply w-920 inline-block bg-white dark:bg-dark }
+
+.font-16 { font: 16px arial }
+.font-32 { font: 32px arial }
+
+h1 { @apply py-3.5 mt-50 mb-5 text-white font-32 bg-green }
+
+h2 { @apply my-4 py-4 text-white text-left font-20 bg-blue;  text-indent: 5% }
+
+h3 { @apply w-90 py-3.5 inline-block text-left;  font: bold 16px arial }
+
+p { @apply w-90 py-2.5 inline-block text-justify indent-7 font-16 }
+
+hr { @apply w-90 my-2.5 inline-block dark:border-dark dark:border-b-light;
+	border: 1px solid white;  border-bottom: 1px dashed #aaa
+}

@@ -1,0 +1,10 @@
+
+@import 'highcharts/css/highcharts.css';
+
+.dark .highcharts-background { fill: #444 }
+.dark .highcharts-title { fill: #eee }
+.dark .highcharts-subtitle { fill: #ccc }
+.dark .highcharts-grid-line { stroke: #555 }
+.dark .highcharts-axis-line { stroke: #aaa }
+.dark .highcharts-axis-title { fill: #eee }
+.dark .highcharts-axis-labels { fill: #eee }
